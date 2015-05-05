@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Paul W. Joireman'
-SITENAME = u'Technically Me'
+SITENAME = u'Technically Me - Paul W. Joireman'
 SITEURL = ''
 
 PATH = 'content'
@@ -23,12 +23,14 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Site built by Pelican', 'http://getpelican.com/'),
          ('Powered by Python', 'http://python.org/'),
 #         ('Jinja2', 'http://jinja.pocoo.org/'),
-         )
+         ('physIQ, Inc.', 'http://www.physiq.com'),)
 
 # Social widget
 SOCIAL = (('LinkedIn Profile', 'https://www.linkedin.com/hp/?dnr=JmR3tlzLTGfceYkC3gs3A5z5TdEkHp-Dd8A'),
           ('@PaulJoireman', 'https://twitter.com/PaulJoireman'),)
      
+STATIC_PATHS = ['images', 'pdfs']
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
