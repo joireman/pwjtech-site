@@ -2,7 +2,6 @@ Title: Farewell to Lena
 Date: 2015-05-02
 Category: Blog
 Tags: python, image processing
-Slug: my-super-post
 
 As Python contiunes to gain popularity for numeric and scientific computing
 analysis and big data analysis, more and more is published about the tools

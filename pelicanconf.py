@@ -8,7 +8,10 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Central'
+
+THEME = "gum"
+#THEME = "blueidea"
 
 DEFAULT_LANG = u'en'
 
@@ -26,8 +29,9 @@ LINKS = (('Site built by Pelican', 'http://getpelican.com/'),
          ('physIQ, Inc.', 'http://www.physiq.com'),)
 
 # Social widget
-SOCIAL = (('LinkedIn Profile', 'https://www.linkedin.com/hp/?dnr=JmR3tlzLTGfceYkC3gs3A5z5TdEkHp-Dd8A'),
-          ('@PaulJoireman', 'https://twitter.com/PaulJoireman'),)
+SOCIAL = (('LinkedIn Profile', 'https://www.linkedin.com/pub/paul-joireman/3/a5b/334'),
+          ('@PaulJoireman', 'https://twitter.com/PaulJoireman'),
+          ('github', 'https://github.com/joireman'),)
      
 STATIC_PATHS = ['images', 'pdfs']
 
